@@ -10,8 +10,8 @@ ann_std = 0.19
 ann_cash_ret = 0.02
 ann_cash_std = 0
 p = 12  # number of periods per year, 4 for quarter, 12 for months, etc.
-a = 30  # number of years
-n = 50000  # number of trials
+a = 10  # number of years
+n = 10000  # number of trials
 st_val = 100.00
 # set amount of periods to dca over
 # dca_m_vals = range(6, 37,6)
