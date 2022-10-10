@@ -3,9 +3,9 @@ from itertools import permutations
 from itertools import compress
 
 
-p1 = np.matrix([1.0, 1.0, 10.0, 20.0])
-p2 = np.matrix([1.0, 2.0, 7.0, 20.0])
-q1 = np.matrix([100.0, 55.55, 20.0, 10.0])
+p1 = np.matrix([1.0, 1.0, 10.0, 20.0])  # prices in the period before
+p2 = np.matrix([1.0, 2.0, 7.0, 20.0])  # new prices
+q1 = np.matrix([100.0, 55.55, 20.0, 10.0])  # initial amount owned for each token
 no_assets = p1.shape[1]
 dollar_in = 100.0
 dollar_out = -100.0
